@@ -1,0 +1,20 @@
+{
+  "airplay_name": "PhoneAgent",
+  "mirror_title": "Direct3D12 Renderer",
+  "phone_mouse_dir": "mouse",
+  "msys_shell": "C:\\msys64\\msys2_shell.cmd",
+  "uxplay_exe": "",
+  "videosink": "",
+  "mouse_host": "127.0.0.1",
+  "mouse_port": 7777,
+  "phone_aspect": 2.168,
+  "gain": [0.93, 0.925],
+  "llm": {
+    "provider": "openai",
+    "base_url": "http://127.0.0.1:1234/v1",
+    "api_key": "",
+    "model": "",
+    "max_steps": 12,
+    "timeout": 120
+  }
+}

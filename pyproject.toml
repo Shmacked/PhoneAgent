@@ -1,0 +1,21 @@
+[project]
+name = "phone-agent"
+version = "0.1.0"
+description = "Drive an AirPlay-mirrored iPhone from Windows: capture the mirror and tap through a Bluetooth pointer"
+requires-python = ">=3.12"
+dependencies = [
+    "mss>=9.0",
+    "opencv-python>=4.10",
+    "numpy>=2.0",
+    "pygetwindow>=0.0.9",
+]
+
+[project.scripts]
+phone-agent = "phone_remote.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["phone_remote*"]

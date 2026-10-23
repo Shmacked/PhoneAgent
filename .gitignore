@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.deps-ok
+.pytest_cache/
+
+# Live agent bus and captured frames
+data/remote/*
+!data/remote/.gitkeep
+data/*.log
+data/*.png
+data/pointer.json
+
+# Bluetooth attach / firmware cache (created at runtime)
+mouse/attach-out.txt
+mouse/attach-err.txt
+mouse/attach.pid
+mouse/bt-check.txt
+mouse/log.txt
+mouse/state.json
+mouse/firmware/
+mouse/*.bak
+
+build_uxplay.log
